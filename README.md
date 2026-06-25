@@ -1,8 +1,6 @@
 # Corners
 
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+1/8th multipart corner blocks
 
 ## License
 
