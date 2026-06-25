@@ -1,0 +1,7 @@
+{
+  "parent": "corners:block/template/corner_internal_down",
+  "textures": {
+    "down": "minecraft:block/jungle_planks",
+    "side": "minecraft:block/jungle_planks"
+  }
+}

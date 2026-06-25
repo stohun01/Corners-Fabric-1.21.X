@@ -1,5 +1,18 @@
 {
   "block.corners.oak_corner": "Oak Corner",
+  "block.corners.spruce_corner": "Spruce Corner",
+  "block.corners.birch_corner": "Birch Corner",
+  "block.corners.jungle_corner": "Jungle Corner",
+  "block.corners.acacia_corner": "Acacia Corner",
+  "block.corners.dark_oak_corner": "Dark Oak Corner",
+  "block.corners.mangrove_corner": "Mangrove Corner",
+  "block.corners.cherry_corner": "Cherry Corner",
+  "block.corners.bamboo_corner": "Bamboo Corner",
+  "block.corners.crimson_corner": "Crimson Corner",
+  "block.corners.warped_corner": "Warped Corner",
+
+  "block.corners.cobblestone_corner": "Cobblestone Corner",
+
   "block.corners.brick_corner": "Brick Corner",
   "block.corners.sandstone_corner": "Sandstone Corner",
   "block.corners.stone_corner": "Stone Corner"

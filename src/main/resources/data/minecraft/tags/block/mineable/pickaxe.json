@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "corners:cobblestone_corner",
+    "corners:brick_corner",
+    "corners:sandstone_corner",
+    "corners:stone_corner"
+  ]
+}

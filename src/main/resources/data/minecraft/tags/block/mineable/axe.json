@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "corners:oak_corner",
+    "corners:spruce_corner",
+    "corners:birch_corner",
+    "corners:jungle_corner",
+    "corners:acacia_corner",
+    "corners:dark_oak_corner",
+    "corners:mangrove_corner",
+    "corners:cherry_corner",
+    "corners:bamboo_corner",
+    "corners:crimson_corner",
+    "corners:warped_corner"
+  ]
+}
