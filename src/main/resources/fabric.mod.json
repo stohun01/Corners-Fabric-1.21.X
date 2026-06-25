@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "corners",
+	"version": "0.1",
+	"name": "Corners",
+	"description": "1/8 Corner blocks",
+	"authors": [
+		"Stohun"
+	],
+	"contact": {
+		"homepage": "https://github.com/stohun01",
+		"sources": "https://github.com/stohun01/Corners-Fabric-1.21.X"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/corners/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.stohun.corners.Corners"
+		],
+		"fabric-datagen": [
+			"net.stohun.corners.CornersDataGenerator"
+		],
+		"client": [
+			"net.stohun.corners.CornersClient"
+		]
+	},
+	"mixins": [
+		"corners.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
