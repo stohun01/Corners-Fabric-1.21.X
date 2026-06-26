@@ -39,7 +39,9 @@ public class CornersModelProvider extends FabricModelProvider {
             new MaterialConfig("crimson", Blocks.CRIMSON_PLANKS, ModBlocks.CRIMSON_CORNER),
             new MaterialConfig("warped", Blocks.WARPED_PLANKS, ModBlocks.WARPED_CORNER),
 
+            new MaterialConfig("stone", Blocks.STONE, ModBlocks.STONE_CORNER),
             new MaterialConfig("cobblestone", Blocks.COBBLESTONE, ModBlocks.COBBLESTONE_CORNER),
+            new MaterialConfig("mossy_cobblestone", Blocks.MOSSY_COBBLESTONE, ModBlocks.MOSSY_COBBLESTONE_CORNER),
     };
 
     @Override

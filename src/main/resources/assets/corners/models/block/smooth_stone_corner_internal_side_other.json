@@ -1,6 +1,6 @@
 {
 	"parent": "corners:block/template/corner_internal_side_other",
 	"textures": {
-		"side": "block/stone"
+		"side": "block/smooth_stone_slab_side"
 	}
 }

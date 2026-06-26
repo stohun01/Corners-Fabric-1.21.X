@@ -1,6 +1,6 @@
 {
 	"parent": "corners:block/template/corner_internal_up",
 	"textures": {
-		"up": "block/stone"
+		"up": "block/smooth_stone"
 	}
 }

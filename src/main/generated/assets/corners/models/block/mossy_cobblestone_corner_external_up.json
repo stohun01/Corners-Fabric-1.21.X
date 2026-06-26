@@ -1,0 +1,7 @@
+{
+  "parent": "corners:block/template/corner_external_up",
+  "textures": {
+    "side": "minecraft:block/mossy_cobblestone",
+    "up": "minecraft:block/mossy_cobblestone"
+  }
+}

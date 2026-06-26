@@ -42,7 +42,10 @@ public class CornersLootTableProvider extends FabricBlockLootTableProvider {
         addCornerDrop(ModBlocks.CRIMSON_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.WARPED_CORNER, cornerProperties);
 
+        addCornerDrop(ModBlocks.STONE_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.COBBLESTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.MOSSY_COBBLESTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.SMOOTH_STONE_CORNER, cornerProperties);
     }
 
     private void addCornerDrop(Block block, BooleanProperty[] cornerProperties) {

@@ -1,9 +1,11 @@
 {
   "replace": false,
   "values": [
+    "corners:stone_corner",
     "corners:cobblestone_corner",
+    "corners:mossy_cobblestone_corner",
+    "corners:smooth_stone_corner",
     "corners:brick_corner",
-    "corners:sandstone_corner",
-    "corners:stone_corner"
+    "corners:sandstone_corner"
   ]
 }

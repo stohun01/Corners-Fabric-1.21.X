@@ -1,7 +1,7 @@
 {
 	"parent": "corners:block/template/corner_external_up",
 	"textures": {
-		"up": "block/stone",
-		"side": "block/stone"
+		"up": "block/smooth_stone",
+		"side": "block/smooth_stone_slab_side"
 	}
 }

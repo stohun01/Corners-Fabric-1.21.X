@@ -11,9 +11,11 @@
   "block.corners.crimson_corner": "Crimson Corner",
   "block.corners.warped_corner": "Warped Corner",
 
+  "block.corners.stone_corner": "Stone Corner",
   "block.corners.cobblestone_corner": "Cobblestone Corner",
+  "block.corners.mossy_cobblestone_corner": "Mossy Cobblestone Corner",
+  "block.corners.smooth_stone_corner": "Smooth Stone Corner",
 
   "block.corners.brick_corner": "Brick Corner",
-  "block.corners.sandstone_corner": "Sandstone Corner",
-  "block.corners.stone_corner": "Stone Corner"
+  "block.corners.sandstone_corner": "Sandstone Corner"
 }
