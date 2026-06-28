@@ -5,7 +5,24 @@
     "corners:cobblestone_corner",
     "corners:mossy_cobblestone_corner",
     "corners:smooth_stone_corner",
+    "corners:stone_brick_corner",
+    "corners:mossy_stone_brick_corner",
+    "corners:granite_corner",
+    "corners:polished_granite_corner",
+    "corners:diorite_corner",
+    "corners:polished_diorite_corner",
+    "corners:andesite_corner",
+    "corners:polished_andesite_corner",
+    "corners:cobbled_deepslate_corner",
+    "corners:polished_deepslate_corner",
+    "corners:deepslate_brick_corner",
+    "corners:deepslate_tile_corner",
+    "corners:tuff_corner",
+    "corners:polished_tuff_corner",
+    "corners:tuff_brick_corner",
     "corners:brick_corner",
+    "corners:mud_brick_corner",
+
     "corners:sandstone_corner"
   ]
 }

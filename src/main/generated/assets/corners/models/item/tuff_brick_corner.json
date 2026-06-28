@@ -1,0 +1,8 @@
+{
+  "parent": "corners:block/template/corner_item",
+  "textures": {
+    "down": "minecraft:block/tuff_bricks",
+    "side": "minecraft:block/tuff_bricks",
+    "up": "minecraft:block/tuff_bricks"
+  }
+}

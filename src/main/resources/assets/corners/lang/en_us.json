@@ -10,12 +10,29 @@
   "block.corners.bamboo_corner": "Bamboo Corner",
   "block.corners.crimson_corner": "Crimson Corner",
   "block.corners.warped_corner": "Warped Corner",
+  "block.corners.bamboo_mosaic_corner": "Bamboo Mosaic Corner",
 
   "block.corners.stone_corner": "Stone Corner",
   "block.corners.cobblestone_corner": "Cobblestone Corner",
   "block.corners.mossy_cobblestone_corner": "Mossy Cobblestone Corner",
   "block.corners.smooth_stone_corner": "Smooth Stone Corner",
-
+  "block.corners.stone_brick_corner": "Stone Brick Corner",
+  "block.corners.mossy_stone_brick_corner": "Mossy Stone Brick Corner",
+  "block.corners.granite_corner": "Granite Corner",
+  "block.corners.polished_granite_corner": "Polished Granite Corner",
+  "block.corners.diorite_corner": "Diorite Corner",
+  "block.corners.polished_diorite_corner": "Polished Diorite Corner",
+  "block.corners.andesite_corner": "Andesite Corner",
+  "block.corners.polished_andesite_corner": "Polished Andesite Corner",
+  "block.corners.cobbled_deepslate_corner": "Cobbled Deepslate Corner",
+  "block.corners.polished_deepslate_corner": "Polished Deepslate Corner",
+  "block.corners.deepslate_brick_corner": "Deepslate Brick Corner",
+  "block.corners.deepslate_tile_corner": "Deepslate Tile Corner",
+  "block.corners.tuff_corner": "Tuff Corner",
+  "block.corners.polished_tuff_corner": "Polished Tuff Corner",
+  "block.corners.tuff_brick_corner": "Tuff Brick Corner",
   "block.corners.brick_corner": "Brick Corner",
+  "block.corners.mud_brick_corner": "Mud Brick Corner",
+
   "block.corners.sandstone_corner": "Sandstone Corner"
 }

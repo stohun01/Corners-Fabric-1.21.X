@@ -1,0 +1,8 @@
+{
+  "parent": "corners:block/template/corner_item",
+  "textures": {
+    "down": "minecraft:block/andesite",
+    "side": "minecraft:block/andesite",
+    "up": "minecraft:block/andesite"
+  }
+}

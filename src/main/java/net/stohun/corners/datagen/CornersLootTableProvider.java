@@ -39,6 +39,7 @@ public class CornersLootTableProvider extends FabricBlockLootTableProvider {
         addCornerDrop(ModBlocks.MANGROVE_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.CHERRY_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.BAMBOO_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.BAMBOO_MOSAIC_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.CRIMSON_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.WARPED_CORNER, cornerProperties);
 
@@ -46,6 +47,23 @@ public class CornersLootTableProvider extends FabricBlockLootTableProvider {
         addCornerDrop(ModBlocks.COBBLESTONE_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.MOSSY_COBBLESTONE_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.SMOOTH_STONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.STONE_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.MOSSY_STONE_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.GRANITE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.POLISHED_GRANITE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.DIORITE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.POLISHED_DIORITE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.ANDESITE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.POLISHED_ANDESITE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.COBBLED_DEEPSLATE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.POLISHED_DEEPSLATE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.DEEPSLATE_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.DEEPSLATE_TILE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.TUFF_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.POLISHED_TUFF_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.TUFF_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.MUD_BRICK_CORNER, cornerProperties);
     }
 
     private void addCornerDrop(Block block, BooleanProperty[] cornerProperties) {

@@ -1,0 +1,7 @@
+{
+  "parent": "corners:block/template/corner_internal_side_other",
+  "textures": {
+    "down": "minecraft:block/cobbled_deepslate",
+    "side": "minecraft:block/cobbled_deepslate"
+  }
+}
