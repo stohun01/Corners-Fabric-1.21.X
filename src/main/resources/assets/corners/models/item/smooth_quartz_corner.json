@@ -1,0 +1,8 @@
+{
+  "parent": "corners:block/template/corner_item",
+  "textures": {
+    "down": "minecraft:block/quartz_block_bottom",
+    "side": "minecraft:block/quartz_block_bottom",
+    "up": "minecraft:block/quartz_block_bottom"
+  }
+}

@@ -50,8 +50,24 @@ public class ModBlocks {
     public static final CornerBlock TUFF_BRICK_CORNER = (CornerBlock) registerBlock("tuff_brick_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.TUFF_BRICKS)));
     public static final CornerBlock BRICK_CORNER = (CornerBlock) registerBlock("brick_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.BRICKS)));
     public static final CornerBlock MUD_BRICK_CORNER = (CornerBlock) registerBlock("mud_brick_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.MUD_BRICKS)));
-
     public static final CornerBlock SANDSTONE_CORNER = (CornerBlock) registerBlock("sandstone_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.SANDSTONE)));
+    public static final CornerBlock SMOOTH_SANDSTONE_CORNER = (CornerBlock) registerBlock("smooth_sandstone_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_SANDSTONE)));
+    public static final CornerBlock CUT_SANDSTONE_CORNER = (CornerBlock) registerBlock("cut_sandstone_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)));
+    public static final CornerBlock RED_SANDSTONE_CORNER = (CornerBlock) registerBlock("red_sandstone_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.RED_SANDSTONE)));
+    public static final CornerBlock SMOOTH_RED_SANDSTONE_CORNER = (CornerBlock) registerBlock("smooth_red_sandstone_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_RED_SANDSTONE)));
+    public static final CornerBlock CUT_RED_SANDSTONE_CORNER = (CornerBlock) registerBlock("cut_red_sandstone_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.CUT_RED_SANDSTONE)));
+    public static final CornerBlock PRISMARINE_CORNER = (CornerBlock) registerBlock("prismarine_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.PRISMARINE)));
+    public static final CornerBlock PRISMARINE_BRICK_CORNER = (CornerBlock) registerBlock("prismarine_brick_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.PRISMARINE_BRICKS)));
+    public static final CornerBlock DARK_RISMARINE_CORNER = (CornerBlock) registerBlock("dark_prismarine_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.DARK_PRISMARINE)));
+    public static final CornerBlock NETHER_BRICK_CORNER = (CornerBlock) registerBlock("nether_brick_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.NETHER_BRICKS)));
+    public static final CornerBlock RED_NETHER_BRICK_CORNER = (CornerBlock) registerBlock("red_nether_brick_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS)));
+    public static final CornerBlock BLACKSTONE_CORNER = (CornerBlock) registerBlock("blackstone_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.BLACKSTONE)));
+    public static final CornerBlock POLISHED_BLACKSTONE_CORNER = (CornerBlock) registerBlock("polished_blackstone_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_BLACKSTONE)));
+    public static final CornerBlock POLISHED_BLACKSTONE_BRICK_CORNER = (CornerBlock) registerBlock("polished_blackstone_brick_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_BLACKSTONE_BRICKS)));
+    public static final CornerBlock END_STONE_BRICK_CORNER = (CornerBlock) registerBlock("end_stone_brick_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS)));
+    public static final CornerBlock PURPUR_CORNER = (CornerBlock) registerBlock("purpur_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK)));
+    public static final CornerBlock QUARTZ_CORNER = (CornerBlock) registerBlock("quartz_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BLOCK)));
+    public static final CornerBlock SMOOTH_QUARTZ_CORNER = (CornerBlock) registerBlock("smooth_quartz_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_QUARTZ)));
 
 
 
@@ -125,8 +141,25 @@ public class ModBlocks {
             entries.add(TUFF_BRICK_CORNER);
             entries.add(BRICK_CORNER);
             entries.add(MUD_BRICK_CORNER);
-
             entries.add(SANDSTONE_CORNER);
+            entries.add(SMOOTH_SANDSTONE_CORNER);
+            entries.add(CUT_SANDSTONE_CORNER);
+            entries.add(RED_SANDSTONE_CORNER);
+            entries.add(SMOOTH_RED_SANDSTONE_CORNER);
+            entries.add(CUT_RED_SANDSTONE_CORNER);
+            entries.add(PRISMARINE_CORNER);
+            entries.add(PRISMARINE_BRICK_CORNER);
+            entries.add(DARK_RISMARINE_CORNER);
+            entries.add(NETHER_BRICK_CORNER);
+            entries.add(RED_NETHER_BRICK_CORNER);
+            entries.add(BLACKSTONE_CORNER);
+            entries.add(POLISHED_BLACKSTONE_CORNER);
+            entries.add(POLISHED_BLACKSTONE_BRICK_CORNER);
+            entries.add(END_STONE_BRICK_CORNER);
+            entries.add(PURPUR_CORNER);
+            entries.add(QUARTZ_CORNER);
+            entries.add(SMOOTH_QUARTZ_CORNER);
+
         });
     }
 }

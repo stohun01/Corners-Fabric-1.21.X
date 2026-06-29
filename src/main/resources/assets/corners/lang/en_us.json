@@ -33,6 +33,22 @@
   "block.corners.tuff_brick_corner": "Tuff Brick Corner",
   "block.corners.brick_corner": "Brick Corner",
   "block.corners.mud_brick_corner": "Mud Brick Corner",
-
-  "block.corners.sandstone_corner": "Sandstone Corner"
+  "block.corners.sandstone_corner": "Sandstone Corner",
+  "block.corners.smooth_sandstone_corner": "Smooth Sandstone Corner",
+  "block.corners.cut_sandstone_corner": "Cut Sandstone Corner",
+  "block.corners.red_sandstone_corner": "Red Sandstone Corner",
+  "block.corners.smooth_red_sandstone_corner": "Smooth Red Sandstone Corner",
+  "block.corners.cut_red_sandstone_corner": "Cut Red Sandstone Corner",
+  "block.corners.prismarine_corner": "Prismarine Corner",
+  "block.corners.prismarine_brick_corner": "Prismarine Brick Corner",
+  "block.corners.dark_prismarine_corner": "Dark Prismarine Corner",
+  "block.corners.nether_brick_corner": "Nether Brick Corner",
+  "block.corners.red_nether_brick_corner": "Red Nether Brick Corner",
+  "block.corners.blackstone_corner": "Blackstone Corner",
+  "block.corners.polished_blackstone_corner": "Polished Blackstone Corner",
+  "block.corners.polished_blackstone_brick_corner": "Polished Blackstone Brick Corner",
+  "block.corners.end_stone_brick_corner": "End Stone Brick Corner",
+  "block.corners.purpur_corner": "Purpur Corner",
+  "block.corners.quartz_corner": "Quartz Corner",
+  "block.corners.smooth_quartz_corner": "Smooth Quartz Corner"
 }

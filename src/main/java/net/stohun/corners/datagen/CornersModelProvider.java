@@ -60,6 +60,15 @@ public class CornersModelProvider extends FabricModelProvider {
             new MaterialConfig("tuff_brick", Blocks.TUFF_BRICKS, ModBlocks.TUFF_BRICK_CORNER),
             new MaterialConfig("brick", Blocks.BRICKS, ModBlocks.BRICK_CORNER),
             new MaterialConfig("mud_brick", Blocks.MUD_BRICKS, ModBlocks.MUD_BRICK_CORNER),
+            new MaterialConfig("prismarine", Blocks.PRISMARINE, ModBlocks.PRISMARINE_CORNER),
+            new MaterialConfig("prismarine_brick", Blocks.PRISMARINE_BRICKS, ModBlocks.PRISMARINE_BRICK_CORNER),
+            new MaterialConfig("dark_prismarine", Blocks.DARK_PRISMARINE, ModBlocks.DARK_RISMARINE_CORNER),
+            new MaterialConfig("nether_brick", Blocks.NETHER_BRICKS, ModBlocks.NETHER_BRICK_CORNER),
+            new MaterialConfig("red_nether_brick", Blocks.RED_NETHER_BRICKS, ModBlocks.RED_NETHER_BRICK_CORNER),
+            new MaterialConfig("polished_blackstone", Blocks.POLISHED_BLACKSTONE, ModBlocks.POLISHED_BLACKSTONE_CORNER),
+            new MaterialConfig("polished_blackstone_brick", Blocks.POLISHED_BLACKSTONE_BRICKS, ModBlocks.POLISHED_BLACKSTONE_BRICK_CORNER),
+            new MaterialConfig("end_stone_brick", Blocks.END_STONE_BRICKS, ModBlocks.END_STONE_BRICK_CORNER),
+            new MaterialConfig("purpur", Blocks.PURPUR_BLOCK, ModBlocks.PURPUR_CORNER)
     };
 
     @Override

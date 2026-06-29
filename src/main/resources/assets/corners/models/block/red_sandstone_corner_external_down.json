@@ -1,0 +1,7 @@
+{
+	"parent": "corners:block/template/corner_external_down",
+	"textures": {
+		"down": "block/red_sandstone_bottom",
+		"side": "block/red_sandstone"
+	}
+}

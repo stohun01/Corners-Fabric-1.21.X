@@ -64,6 +64,24 @@ public class CornersLootTableProvider extends FabricBlockLootTableProvider {
         addCornerDrop(ModBlocks.TUFF_BRICK_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.BRICK_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.MUD_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.SANDSTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.SMOOTH_SANDSTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.CUT_SANDSTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.RED_SANDSTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.SMOOTH_RED_SANDSTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.CUT_RED_SANDSTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.PRISMARINE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.PRISMARINE_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.DARK_RISMARINE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.NETHER_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.RED_NETHER_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.BLACKSTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.POLISHED_BLACKSTONE_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.POLISHED_BLACKSTONE_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.END_STONE_BRICK_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.PURPUR_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.QUARTZ_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.SMOOTH_QUARTZ_CORNER, cornerProperties);
     }
 
     private void addCornerDrop(Block block, BooleanProperty[] cornerProperties) {

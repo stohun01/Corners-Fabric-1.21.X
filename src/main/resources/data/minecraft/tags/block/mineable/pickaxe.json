@@ -22,7 +22,23 @@
     "corners:tuff_brick_corner",
     "corners:brick_corner",
     "corners:mud_brick_corner",
-
-    "corners:sandstone_corner"
+    "corners:sandstone_corner",
+    "corners:smooth_sandstone_corner",
+    "corners:cut_sandstone_corner",
+    "corners:red_sandstone_corner",
+    "corners:smooth_red_sandstone_corner",
+    "corners:cut_red_sandstone_corner",
+    "corners:prismarine_corner",
+    "corners:prismarine_brick_corner",
+    "corners:dark_prismarine_corner",
+    "corners:nether_brick_corner",
+    "corners:red_nether_brick_corner",
+    "corners:blackstone_corner",
+    "corners:polished_blackstone_corner",
+    "corners:polished_blackstone_brick_corner",
+    "corners:end_stone_brick_corner",
+    "corners:purpur_corner",
+    "corners:quartz_corner",
+    "corners:smooth_quartz_corner"
   ]
 }
