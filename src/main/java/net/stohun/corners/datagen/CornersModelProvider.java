@@ -68,8 +68,17 @@ public class CornersModelProvider extends FabricModelProvider {
             new MaterialConfig("polished_blackstone", Blocks.POLISHED_BLACKSTONE, ModBlocks.POLISHED_BLACKSTONE_CORNER),
             new MaterialConfig("polished_blackstone_brick", Blocks.POLISHED_BLACKSTONE_BRICKS, ModBlocks.POLISHED_BLACKSTONE_BRICK_CORNER),
             new MaterialConfig("end_stone_brick", Blocks.END_STONE_BRICKS, ModBlocks.END_STONE_BRICK_CORNER),
-            new MaterialConfig("purpur", Blocks.PURPUR_BLOCK, ModBlocks.PURPUR_CORNER)
-    };
+            new MaterialConfig("purpur", Blocks.PURPUR_BLOCK, ModBlocks.PURPUR_CORNER),
+
+            new MaterialConfig("cut_copper", Blocks.CUT_COPPER, ModBlocks.CUT_COPPER_CORNER),
+            new MaterialConfig("exposed_cut_copper", Blocks.EXPOSED_CUT_COPPER, ModBlocks.EXPOSED_CUT_COPPER_CORNER),
+            new MaterialConfig("weathered_cut_copper", Blocks.WEATHERED_CUT_COPPER, ModBlocks.WEATHERED_CUT_COPPER_CORNER),
+            new MaterialConfig("oxidized_cut_copper", Blocks.OXIDIZED_CUT_COPPER, ModBlocks.OXIDIZED_CUT_COPPER_CORNER),
+            new MaterialConfig("waxed_cut_copper", Blocks.CUT_COPPER, ModBlocks.WAXED_CUT_COPPER_CORNER),
+            new MaterialConfig("waxed_exposed_cut_copper", Blocks.EXPOSED_CUT_COPPER, ModBlocks.WAXED_EXPOSED_CUT_COPPER_CORNER),
+            new MaterialConfig("waxed_weathered_cut_copper", Blocks.WEATHERED_CUT_COPPER, ModBlocks.WAXED_WEATHERED_CUT_COPPER_CORNER),
+            new MaterialConfig("waxed_oxidized_cut_copper", Blocks.OXIDIZED_CUT_COPPER, ModBlocks.WAXED_OXIDIZED_CUT_COPPER_CORNER),
+};
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {

@@ -50,5 +50,14 @@
   "block.corners.end_stone_brick_corner": "End Stone Brick Corner",
   "block.corners.purpur_corner": "Purpur Corner",
   "block.corners.quartz_corner": "Quartz Corner",
-  "block.corners.smooth_quartz_corner": "Smooth Quartz Corner"
+  "block.corners.smooth_quartz_corner": "Smooth Quartz Corner",
+
+  "block.corners.cut_copper_corner": "Cut Copper Corner",
+  "block.corners.exposed_cut_copper_corner": "Exposed Cut Copper Corner",
+  "block.corners.weathered_cut_copper_corner": "Weathered Cut Copper Corner",
+  "block.corners.oxidized_cut_copper_corner": "Oxidized Cut Copper Corner",
+  "block.corners.waxed_cut_copper_corner": "Waxed Cut Copper Corner",
+  "block.corners.waxed_exposed_cut_copper_corner": "Waxed Exposed Cut Copper Corner",
+  "block.corners.waxed_weathered_cut_copper_corner": "Waxed Weathered Cut Copper Corner",
+  "block.corners.waxed_oxidized_cut_copper_corner": "Waxed Oxidized Cut Copper Corner"
 }

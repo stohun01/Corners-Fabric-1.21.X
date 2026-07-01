@@ -39,6 +39,14 @@
     "corners:end_stone_brick_corner",
     "corners:purpur_corner",
     "corners:quartz_corner",
-    "corners:smooth_quartz_corner"
+    "corners:smooth_quartz_corner",
+    "corners:cut_copper_corner",
+    "corners:exposed_cut_copper_corner",
+    "corners:weathered_cut_copper_corner",
+    "corners:oxidized_cut_copper_corner",
+    "corners:waxed_cut_copper_corner",
+    "corners:waxed_exposed_cut_copper_corner",
+    "corners:waxed_weathered_cut_copper_corner",
+    "corners:waxed_oxidized_cut_copper_corner"
   ]
 }

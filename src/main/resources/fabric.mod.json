@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "corners",
-	"version": "0.3",
+	"version": "0.4",
 	"name": "Corners",
 	"description": "1/8 Corner blocks",
 	"authors": [
@@ -25,9 +25,6 @@
 			"net.stohun.corners.CornersClient"
 		]
 	},
-	"mixins": [
-		"corners.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
 		"minecraft": "~1.21.1",

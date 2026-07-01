@@ -1,0 +1,7 @@
+{
+  "parent": "corners:block/template/corner_external_up",
+  "textures": {
+    "side": "minecraft:block/weathered_cut_copper",
+    "up": "minecraft:block/weathered_cut_copper"
+  }
+}

@@ -82,6 +82,15 @@ public class CornersLootTableProvider extends FabricBlockLootTableProvider {
         addCornerDrop(ModBlocks.PURPUR_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.QUARTZ_CORNER, cornerProperties);
         addCornerDrop(ModBlocks.SMOOTH_QUARTZ_CORNER, cornerProperties);
+
+        addCornerDrop(ModBlocks.CUT_COPPER_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.EXPOSED_CUT_COPPER_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.WEATHERED_CUT_COPPER_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.OXIDIZED_CUT_COPPER_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.WAXED_CUT_COPPER_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.WAXED_EXPOSED_CUT_COPPER_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.WAXED_WEATHERED_CUT_COPPER_CORNER, cornerProperties);
+        addCornerDrop(ModBlocks.WAXED_OXIDIZED_CUT_COPPER_CORNER, cornerProperties);
     }
 
     private void addCornerDrop(Block block, BooleanProperty[] cornerProperties) {

@@ -3,9 +3,11 @@ package net.stohun.corners.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.api.registry.OxidizableBlocksRegistry;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.Oxidizable;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -69,7 +71,14 @@ public class ModBlocks {
     public static final CornerBlock QUARTZ_CORNER = (CornerBlock) registerBlock("quartz_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.QUARTZ_BLOCK)));
     public static final CornerBlock SMOOTH_QUARTZ_CORNER = (CornerBlock) registerBlock("smooth_quartz_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_QUARTZ)));
 
-
+    public static final CornerBlock CUT_COPPER_CORNER = (CornerBlock) registerBlock("cut_copper_corner", new OxidizableCornerBlock(Oxidizable.OxidationLevel.UNAFFECTED, AbstractBlock.Settings.copy(Blocks.CUT_COPPER).ticksRandomly()));
+    public static final CornerBlock EXPOSED_CUT_COPPER_CORNER = (CornerBlock) registerBlock("exposed_cut_copper_corner", new OxidizableCornerBlock(Oxidizable.OxidationLevel.EXPOSED, AbstractBlock.Settings.copy(Blocks.EXPOSED_CUT_COPPER).ticksRandomly()));
+    public static final CornerBlock WEATHERED_CUT_COPPER_CORNER = (CornerBlock) registerBlock("weathered_cut_copper_corner", new OxidizableCornerBlock(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.copy(Blocks.WEATHERED_CUT_COPPER).ticksRandomly()));
+    public static final CornerBlock OXIDIZED_CUT_COPPER_CORNER = (CornerBlock) registerBlock("oxidized_cut_copper_corner", new OxidizableCornerBlock(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.copy(Blocks.OXIDIZED_CUT_COPPER)));
+    public static final CornerBlock WAXED_CUT_COPPER_CORNER = (CornerBlock) registerBlock("waxed_cut_copper_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.WAXED_CUT_COPPER)));
+    public static final CornerBlock WAXED_EXPOSED_CUT_COPPER_CORNER = (CornerBlock) registerBlock("waxed_exposed_cut_copper_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.WAXED_EXPOSED_CUT_COPPER)));
+    public static final CornerBlock WAXED_WEATHERED_CUT_COPPER_CORNER = (CornerBlock) registerBlock("waxed_weathered_cut_copper_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.WAXED_WEATHERED_CUT_COPPER)));
+    public static final CornerBlock WAXED_OXIDIZED_CUT_COPPER_CORNER = (CornerBlock) registerBlock("waxed_oxidized_cut_copper_corner", new CornerBlock(AbstractBlock.Settings.copy(Blocks.WAXED_OXIDIZED_CUT_COPPER)));
 
     private static Block registerBlock(String name, Block block) {
 
@@ -105,6 +114,15 @@ public class ModBlocks {
         FuelRegistry.INSTANCE.add(CHERRY_CORNER, 40);
         FuelRegistry.INSTANCE.add(BAMBOO_CORNER, 40);
         FuelRegistry.INSTANCE.add(BAMBOO_MOSAIC_CORNER, 40);
+
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(CUT_COPPER_CORNER, EXPOSED_CUT_COPPER_CORNER);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(EXPOSED_CUT_COPPER_CORNER, WEATHERED_CUT_COPPER_CORNER);
+        OxidizableBlocksRegistry.registerOxidizableBlockPair(WEATHERED_CUT_COPPER_CORNER, OXIDIZED_CUT_COPPER_CORNER);
+
+        OxidizableBlocksRegistry.registerWaxableBlockPair(CUT_COPPER_CORNER, WAXED_CUT_COPPER_CORNER);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(EXPOSED_CUT_COPPER_CORNER, WAXED_EXPOSED_CUT_COPPER_CORNER);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(WEATHERED_CUT_COPPER_CORNER, WAXED_WEATHERED_CUT_COPPER_CORNER);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(OXIDIZED_CUT_COPPER_CORNER, WAXED_OXIDIZED_CUT_COPPER_CORNER);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(OAK_CORNER);
@@ -160,6 +178,14 @@ public class ModBlocks {
             entries.add(QUARTZ_CORNER);
             entries.add(SMOOTH_QUARTZ_CORNER);
 
+            entries.add(CUT_COPPER_CORNER);
+            entries.add(EXPOSED_CUT_COPPER_CORNER);
+            entries.add(WEATHERED_CUT_COPPER_CORNER);
+            entries.add(OXIDIZED_CUT_COPPER_CORNER);
+            entries.add(WAXED_CUT_COPPER_CORNER);
+            entries.add(WAXED_EXPOSED_CUT_COPPER_CORNER);
+            entries.add(WAXED_WEATHERED_CUT_COPPER_CORNER);
+            entries.add(WAXED_OXIDIZED_CUT_COPPER_CORNER);
         });
     }
 }
