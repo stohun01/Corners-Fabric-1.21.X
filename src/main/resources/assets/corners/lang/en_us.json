@@ -59,5 +59,8 @@
   "block.corners.waxed_cut_copper_corner": "Waxed Cut Copper Corner",
   "block.corners.waxed_exposed_cut_copper_corner": "Waxed Exposed Cut Copper Corner",
   "block.corners.waxed_weathered_cut_copper_corner": "Waxed Weathered Cut Copper Corner",
-  "block.corners.waxed_oxidized_cut_copper_corner": "Waxed Oxidized Cut Copper Corner"
+  "block.corners.waxed_oxidized_cut_copper_corner": "Waxed Oxidized Cut Copper Corner",
+
+  "tag.item.corners.corners": "Corners",
+  "tag.item.corners.planks_corners": "Planks Corners"
 }
