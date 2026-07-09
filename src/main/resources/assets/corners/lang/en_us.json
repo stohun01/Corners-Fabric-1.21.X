@@ -62,5 +62,6 @@
   "block.corners.waxed_oxidized_cut_copper_corner": "Waxed Oxidized Cut Copper Corner",
 
   "tag.item.corners.corners": "Corners",
-  "tag.item.corners.planks_corners": "Planks Corners"
+  "tag.item.corners.planks_corners": "Planks Corners",
+  "tag.item.corners.flammable_planks_corners": "Flammable Planks Corners"
 }
